@@ -1,0 +1,36 @@
+.container{
+    background: #f1f1f1;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: content-box;
+  
+  .boxCenter{
+    width: 75vw;
+    height: 60vh;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+  }  
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1{
+    font-weight: bold;
+  }
+
+  main{
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 200;
+  }
+
+}
